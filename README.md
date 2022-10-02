@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to An-ARP-Spoofer 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
+  <a href="https://github.com/nheatyon/An-ARP-Spoofer/blob/main/LICENSE">
     <img alt="License: GNU--GPLv3" src="https://img.shields.io/badge/License-GNU--GPLv3-yellow.svg" />
   </a>
 </p>
