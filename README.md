@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> A simple script written in Python 3.10 that is able to perform an arp spoofing operation towards a certain local ip address
+> A simple script written in Python 3.10 capable of performing an arp spoofing operation towards a given local ip address and interrupting its internet network flow, blocking access to it
 
 ## Install
 
