@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> A simple script written in Python 3.10 capable of performing an arp spoofing operation towards a given local ip address and interrupting its internet network flow, blocking access to it
+> A simple script written in Python 3.10 capable of performing an arp spoofing operation towards a given local ip address and interrupting its internet network flow, blocking access to it.
 
 ## Install
 
@@ -22,7 +22,7 @@ Once the dependencies are installed, you will need to run the script and specify
 * <b>gateway_ip</b> → <i>Default gateway IP</i><br/>
 * <b>ip_address</b> → <i>IP address of the victim present on the network</i>
 ```sh
-python arp_spoofer.py -g <gateway_ip> -i <ip_address>
+python3 arp_spoofer.py -g <gateway_ip> -i <ip_address>
 ```
 As soon as the command is sent, the script starts running and will block the connection for that particular IP address as long as it is running.<br/>
 To cancel everything and restore the connection, you will need to press <b>CTRL+C</b> and consequently exit the script
