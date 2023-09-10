@@ -78,7 +78,7 @@ if __name__ == "__main__":
     colorama.init(autoreset=True)
     syntax_error = f"{Fore.RED}[*] Usage: \"python3 {sys.argv[0]} -g <gateway_ip> -i <ip_address>\""
     # Checking for args
-    if (len(sys.argv) != 5) or not (sys.argv[1] == "-g" and sys.argv[3] == "-i"):
+    if (len(sys.argv) < 5) or (sys.argv[1] != "-g" or sys.argv[3] != "-i"):
         log_and_exit(syntax_error)
     # Valid args
     instance = ARPSpoofer(sys.argv[2], sys.argv[4])
