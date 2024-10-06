@@ -30,4 +30,4 @@ To cancel everything and restore the connection, you will need to press <b>CTRL+
 ## Contributing
 
 Any contribution to the project is really <b>appreciated</b>. Feel free to fork the project and commit your changes!<br/>
-Use this script for educational purposes only! I do not take any responsibility for the use you will make of it
+Use this script for educational purposes only! I do not take any responsibility for the use you will make of it.
